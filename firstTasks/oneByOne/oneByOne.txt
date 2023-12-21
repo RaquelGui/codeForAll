@@ -1,0 +1,47 @@
+<One by one>
+Grain by grain the chicken fills it's gizzard.
+Traditional Portuguese Proverb
+
+By now you should know how to use arithmetic assignment operators.  These operators provide a consise way to perform an arithmetic operation and a variable assignment in one single statement.
+For example, if you have the need to increment or decrement some variable by one, you could simply write something like:
+
+age += 1;
+age -= 1;
+
+Looks nice and clean, right?  Still, JavaScript provides you yet with another operator to perform this operation in an even shorter manner.
+
+age++;
+age--;
+
+These are called unary operators (the operators we've seen so far are called binary operators - they act on two operands), but there are some specifics we must talk about before we continue.
+
+The increment and decrement operators produce two effects:
+
+1. They update the value of the variable on which they're used; and
+
+2. They return a value (that you can print or store in a new variable,  you know the drill). But can you guess which value?
+
+
+
+
+
+Consider the following snippet:
+
+var counter = 0;
+var returnedValue = counter++;
+console.log(counter); // ?
+console.log(returnedValue); // ?
+
+The first console.log will print the value stored in counter which is now 1.
+
+The second console.log though, will print 0, not 1 as you might expect.
+
+The ++ operator, used in this manner will first return the value stored in counter, which we've assigned to returnedValue. Only then does it increment the value of counter.
+
+Show me the code!
+
+Initialize a variable called counter with the value 10 and print it to the console.
+
+Using unary operators, decrement the value in the variable until you reach the number 7.
+
+Print the final value.

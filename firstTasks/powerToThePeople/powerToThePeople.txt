@@ -1,0 +1,29 @@
+<Power to the people>
+There’s a fairly used operation you may be familiar with, called exponentiation or power. Simply put, exponentiation is a notation that allows you to write in a simple form an expression that otherwise would easily become too long.
+
+9 x 9 x 9 x 9 x 9 x 9, or in other words 9 multiplied by itself six times. Using exponentiation you may write the same expression like this:
+
+9
+6
+
+Exponents always use two numbers. The first and bigger one is the base. The number we want multiplied. The smaller and superscripted one is the exponent, or power, and tells us how many times we want the base multiplied by itself. Some more examples:
+
+3
+2
+, or 3 x 3, that is 9
+5
+3
+, or 5 x 5 x 5, that is 125
+10
+6
+, or 10 x 10 x 10 x 10 x 10 x 10, that is 1000000 (it's also a 1 followed by six zeros; this rule for powers of ten is quite handy)
+
+There's a JavaScript operator for exponentiation:
+2 ** 3; // the operand to the left represents the base, the one to the right the exponent
+
+<Show me the Code>
+While keeping the same base value, use the exponent operator to obtain and print to the console each one of the following results:
+
+256, 1024, 64, 128
+
+Do these look familiar? :) Hint: they're all powers of two.

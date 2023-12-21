@@ -1,0 +1,48 @@
+<While we're young>
+Now... We are going in a loop.
+RAMAKRISHNA, Springs of Indian Wisdom
+
+Using conditionals to manipulate the flow of your code is great to create multiple branches of execution. In other words, you can ask a yes or no question before continuing and act accordingly. For instance, roll a dice, like this:
+
+var diceResult = Math.ceil(Math.random() * 6);
+
+if (diceResult === 6) {
+    console.log('You win!');
+} else {
+    console.log('Sorry, mate. Better luck next time');
+}
+
+// life goes on
+
+Better luck next time... Really? But there isn't going to be a next time, will it? You'll have a one time opportunity to try and roll a six. If you fail that one roll, game over.
+
+Maybe you could give your player another chance at hitting a six. Or maybe three other chances, but would it be possible to keep trying until you hit a specific value? How many tries would you give your player to make sure that sooner or later he would hit six? Ten? One hundred? One million? And how many lines of code would it take?
+
+We need something that will repeat a piece of code until a condition is met. Within programming there is such a tool, and it's called a loop. What we want is something like this pseudocode:
+
+1. Roll a dice;
+2. Check if it's a six;
+3. If it's not go back to step 1;
+4. Print "you've won";
+
+If you read these instructions you'll notice that you'll be stuck in steps 1 - 3 until you hit six with your dice, after that you move on.
+JavaScript will provide you with some ways of doing it, one of which is the while loop.
+
+var diceResult = Math.ceil(Math.random() * 6);
+
+while (diceResult !== 6) {
+    console.log('Not six! Try again');
+    diceResult = Math.ceil(Math.random() * 6);
+};
+
+console.log("Yay! You've done it!");
+
+If you're familiar with your if statements by now, this won't be completely alien to you. The code inside the  block is dependent on the condition, but this time it will run again and again while the condition is met (that is, with any value BUT six).
+
+How many times will that block of code repeat itself, or, in other words, loop? We don't know. We'll never know. We don't want to know. We just want to be sure that if the dice hits a six, we don't want to roll it again.
+
+Show me the code!
+
+Your editor currently has a variable declared target to which a random number between 0 and 10 will be assigned. Print the target to the console.
+
+Write a small program which will keep guessing numbers between 0 and 10 and printing them until the guessed number is the same as the target.

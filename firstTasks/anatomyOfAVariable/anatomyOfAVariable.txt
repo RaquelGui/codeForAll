@@ -1,0 +1,32 @@
+<Anatomy of a variable>
+You should name a variable using the same care with which you name a first-born child.
+JAMES O. COPLIEN, foreword to Robert Martin's Clean Code, 2007
+
+Consider the code snippet below and the dissection of each part:
+
+var myAge = 28;
+
+var
+JavaScript keyword used to declare a variable. It must be used before the variable's name. Later on when referring to the variable to check or change its value, you won't be using this keyword anymore.
+
+myAge
+The variable's name. What's in a name? Well, a lot! The naming of a variable is yours to decide, and experimented programmers will tell you this is the single most difficult task in the job. But besides finding the perfect word, or words, that properly express what is being stored, there are a few rules you must follow and some conventions you should respect:
+
+A variable's name cannot be a JavaScript keyword. Some words, just like var and other you will learn further on, are reserved by the programming language itself and not to be used as variable names. These special words are called keywords. After all, how confusing would it be if JavaScript allowed you to declare a variable named var ?
+
+Although you can use letters (uppercase or lowercase), numbers, and most special characters in the naming of a variable, it must start with a letter, a dollar sign ($) or an underscore (_). Of course you can't use spaces, but it's not unusual to see a name comprised of several words.
+
+In JavaScript, the standard convention to build such variable names is called camel case: writing phrases such that each word in the middle of the phrase begins with a capital letter. (e.g. camelCaseEverythingFromNowOn).
+
+=
+This is the assignment operator and it assigns the value to the right of it (in this case the number 28) to the variable to its left (myAge). When you're reading JavaScript it's helpful to read assignment operations from right to left (the value is assigned to the variable).
+
+ 
+
+  
+
+Show me the code!
+
+Let's create some more variables. How about your year of birth and how many hours you've been dealing with this code challenge up to now?
+
+Remember to use meaningful names, and respect the convention. Go!

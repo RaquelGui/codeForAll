@@ -1,0 +1,36 @@
+<Quite the opposite>
+Not!
+BORAT, Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan, 2006
+
+Another operator you'll be using everyday on this journey of yours will be the NOT. This is a unary operator: you use it on a single operand and it will flip its boolean value. In JavaScript, NOT is represented by the ! symbol.
+
+Take some time to look at the following code snippets.
+
+var intended = true;
+var pun = !intended;
+console.log(pun); // outputs false
+
+Of course not wanting to make a lame joke can't be the reason someone brought this operator to life. The same way you can combine arithmetic operators and numbers to produce a value, you may use and mix these boolean operators in your search for the truth of things. Be them comparison or logical.
+
+var minAge = 4;
+var maxAge = 99;
+var myAge = 12;
+var canPlayWithLegos = (myAge >= minAge) && !(myAge >= maxAge); // true if myAge is between 4 and 99
+var giveAShit = false;
+canPlayWithLegos = ((myAge > minAge) && !(myAge > maxAge)) || !giveAShit; // always true
+
+As with the arithmetic operators there are some rules for precedence with logical operators:
+
+1. NOT: !
+2. Comparison Operators: ===, >, <, >=, <=
+3. AND: &&
+4. OR: | |
+
+This means that the statement above wouldn't need any parenthesis, but in most cases it is safer and easier to read an expression with your intention as clear as possible. When in doubt...
+
+Show me the code!
+
+Using the logical operators you just learned, write an expression that represents the following statement:
+"I would like an ice cream with strawberry and either chocolate or stracciatella, or an ice cream of any flavour but caramel."
+
+Declare a variable named iceCream and assign it the logical expression. 

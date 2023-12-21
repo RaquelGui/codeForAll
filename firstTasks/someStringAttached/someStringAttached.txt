@@ -1,0 +1,38 @@
+<Some strings attached>
+Concatenate, son, concatenate.
+GATO FEDORENTO, Isso é tudo muito bonito mas, 2015
+
+When you create a new string, you're producing a value. A string is a JavaScript value, in the same way a number is. Almost anything you place between quotes will be a string. This distinction between numbers and strings is important.
+
+Consider these two following values:
+
+42; // a numeric value: a number
+'42'; // a text value: a string
+
+If you go ahead and print both values, they will look the same in the console, but they represent two different values within your program.
+
+You can't multiply or subtract two text values, but you can with two numbers, as you've been doing extensively in previous lessons. There is one operator, though, you can use both with strings and numbers. The + operator.
+
+Of course you won't be adding strings (in the arithmetic sense, at least), but you'll be creating a new string which will be comprised of the left and right operands together.
+
+console.log('bat' + 'man'); // outputs batman
+var firstName = 'spider';
+var secondName = 'man';
+console.log(firstName + '-' + secondName); // outputs spider-man
+
+This is called concatenation: we're creating a new string by joining two previous ones.
+  
+ 
+
+
+
+Dealing with numbers and strings when using the + operator, may lead you to unexpected results if you're not sure which one is assigned to the variable:
+
+var aNumber = 2;
+var aString = '2';
+console.log(aNumber + aNumber); // what do you think the output will be?
+console.log(aString + aString); // what about now?
+
+Show me the code!
+
+Use the strings available in the given variables to produce and print the famous Shakesperean quote (remember: spaces are characters too).

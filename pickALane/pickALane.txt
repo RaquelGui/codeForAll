@@ -1,0 +1,61 @@
+<Pick a Lane>
+In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.
+THEODORE ROOSEVELT, circa 1888
+
+Using an if...else statement to branch the execution of our code conditionally between two options is all fine and dandy, but what if we have more than two possibilities?
+
+Time to meet the else if statement. Embedded within the if...else statement, each else if statement will have a condition, that must be met in order for the following block of code to be executed.
+
+Conditions are verified sequentially, and if one is met the following block of code will execute. If that is the case none of the following else if conditions will be verified.
+
+var season = 'summer';
+
+if (season === 'spring') {
+    console.log('The trees might blossom, but winter is coming.');
+} else if (season === 'summer') {
+    console.log('It might be time to harvest, but winter is coming.');
+} else if (season === 'autumn') {
+    console.log('Leaves may fall, but winter is coming.');
+} else if (season === 'winter') {
+    console.log('Winter is here!');
+} else {
+    console.log('That is not a season...');
+}
+
+// prints 'It might be time to harvest, but winter is coming.'
+
+In the example above the value stored in the variable season is the string 'summer', which means that only the conditions in the if statement and in the first if...else statement are checked. Once the condition of an if...else statement is met, that block of code is executed, and the following if...else clauses ignored.
+
+If the value stored in the variable season was the string 'potato', the boolean expressions on all else if statements would be checked, and found to evaluate to false. This would mean that the block of code that follows the else statement would be executed, just as we saw on the previous exercise.
+
+We could use an if...else statement with different else if statements to create a simple die roll simulator:
+
+var dieRoll = Math.ceil(Math.random() * 6);
+
+if (dieRoll === 1) {
+    console.log('You roll a 1.');
+} else if (dieRoll === 2) {
+    console.log('You roll a 2.');
+} else if (dieRoll === 3) {
+    console.log('You roll a 3.');
+} else if (dieRoll === 4) {
+    console.log('You roll a 4.');
+} else if (dieRoll === 5) {
+    console.log('You roll a 5.');
+} else if (dieRoll === 6) {
+    console.log('You roll a 6.');
+} else {
+    console.log('This die only has 6 sides man...');
+}
+
+Show me the Code!
+
+On the editor to your right you find a variable named charmanderLevel, to which a value between 1 and 100 will be assigned.
+
+Using else if statements print to the console which evolution of Charmander corresponds to that experience level. Consider an else statement if the experience level ever go above 100 that should print 'Charizard is as good as it gets'. 
+
+Here's a chart with the evolution which corresponds to each level:
+
+    Charmander - 0 to 15
+    Charmeleon - 16 to 35
+    Charizard - 36 to 100

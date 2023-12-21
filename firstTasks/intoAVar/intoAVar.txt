@@ -1,0 +1,27 @@
+<A string and a number walk into a var...>
+
+I am no poet. I do not love words for the sake of words. I love words for what they can accomplish. Similarly, I am no arithmetician. Numbers that speak only of numbers are of little interest to me.
+KVOTHE, The Wise Men's Fear, Patrick Rothfuss, 2011 
+
+What do you think will happen if you concatenate a string and a number using the + operator? Let's look at some code:
+
+var year = 2020; // year holds a numeric value
+var sentence = 'the year is ' + year; // a string and a number as operands of +, producing a whole new string
+console.log(sentence); // outputs 'the year is 2020' 
+
+
+It's as if JavaScript guessed what we wanted and somehow converted the number 2020 into the string '2020'  before performing the concatenation operation!
+This is very useful and will even allow you to perform some arithmetic operations before concatenating into a new string. An example:
+
+var yearOfBirth = 1985;
+var currentYear = 2020;
+console.log('My age is ' + (currentYear - yearOfBirth)); // outputs 'My age is 35'
+
+Are these parentheses really necessary? Yes, they are. You want JavaScript to perform the arithmetic operation before the string conversions, so you must be clear on your intention (also, it's easier to read: win-win).
+
+ 
+
+ 
+Show me the code!
+
+With the help of the given variables, calculate and print the info about the age of JavaScript. 

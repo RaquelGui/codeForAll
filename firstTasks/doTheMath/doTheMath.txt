@@ -1,0 +1,21 @@
+<Do the Math>
+If you're dealing with numbers you'll probably be doing a lot of arithmetic operations in your program. JavaScript provides you with some arithmetic operators which will take two values and produce a new one.
+
+The four basic arithmetic operators are represented by + (add), - (subtract), * (multiply) and / (divide).
+If you need to perform an arithmetic operation between two numbers here's what you'll do:
+
+12 + 10;
+2 * 3;
+27 / 9;
+
+Be aware that the order of operations apply. 
+
+2 + 5 * 10;
+
+This expression produces 52, because multiplication has precedence over addition. If you need to add 2 and 5 before multiplying it by 10 you should use parenthesis:
+
+(2 + 5) * 10;
+
+<Show me the code>
+In a single statement, print your age in weeks. You should use an expression which derives your age from the current year, as well as your birth year. To get to your age in weeks simply multiply it by the number of weeks present in a year.
+Look at you go!

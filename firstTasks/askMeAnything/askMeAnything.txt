@@ -1,0 +1,45 @@
+<Ask me anything>
+First of all, I would like to make one thing clear: I never explain anything.
+MARY POPPINS, Mary Poppins, 1964
+
+If you had only the one single question you could ask a string, what would it be? 
+
+All etymological stuff aside, maybe you'd like to know how many characters there are in a word or a sentence. JavaScript will let you do this in a very simple manner:
+
+var bigWord = 'supercalifragilisticexpialidocious';
+var characters = bigWord.length; // 34
+
+What if you want a specific character within a string? Simple - just tell JavaScript the position of the character you are looking for. There are two ways to achieve this:
+
+console.log(bigWord[1]); // outputs 'u'
+console.log(bigWord.charAt(1)); // same
+
+Were you expecting an 's'? 
+
+Actually, in JavaScript (as well as almost all programming languages) a sequence of values is numbered beginning from 0. Here, 's' would be 0. This positional number is called an index. It's an important concept in programming and we'll be dealing with it a lot (so get used to it).
+
+Before we put you to work, here is yet another useful string method:
+
+var partOfTheWord = bigWord.slice(9, 15);
+console.log(partOfTheWord); // outputs fragil
+
+With slice, you use indexes to determine the starting and end point of a new string. The first index corresponds to the first character to be included and it ends at - but does not include - the second index.
+
+
+
+
+ 
+You can also just specify the starting point - omitting the second index completely. This will give you a new string starting from that index until the end, like so:
+
+var endOfTheWord = bigWord.slice(18); // outputs icexpialidocious
+
+ 
+
+ 
+Show me the code!
+You know, you can say it backwards, which is docious-ali-expi-istic-fragil-cali-rupus.
+MARY POPPINS, Mary Poppins, 1964
+
+Try out these new methods to manipulate the original string to obtain and print the following version:  
+
+docious-ali-expi-istic-fragil-cali-rupus

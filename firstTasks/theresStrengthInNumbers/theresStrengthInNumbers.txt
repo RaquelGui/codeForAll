@@ -1,0 +1,25 @@
+<There's strength in numbers>
+When I consider what people generally want in calculating, I found that it always is a number.
+MUHAMMAD IBN MUSA AL-KHWARIZMI, circa 810
+
+So far you've printed some sentences in english to the console, and we'll go back to text messages further along this challenge. But for now let's focus on numeric values. After all there's no value your computer understands better than numbers. Remember the ones and zeros from your CS101?
+
+In JavaScript we will work with numbers in its decimal format. If you need to represent a number within your program you just type it, without any quotation mark, single or double. Like this:
+
+9
+
+If you do this, you'll have somewhere in your computer memory the number nine in its binary form (1001). You just need 4 bits to represent number 9 (and any number from 0 to 15, for that matter), but JavaScript uses a fixed number of 64 bits to store any numeric value. 64 binary digits allow you to represent really big numbers. To be accurate, any number up to 18,446,744,073,709,552,000.
+
+Not all numbers up to 18 quintillion may be represented in JavaScript, though. This is because you'll also want to store negative numbers and fractional ones, and in order to do that JavaScript will use some of the bits to indicate the sign of the number or the decimal point. So the actual maximum is somewhere around 9 quadrillion (that's a 9 and 15 zeros). Still not bad.
+
+You already know how to write a positive integer in your code. If you need a negative value you just use the minus sign before the value:
+
+-9
+
+For a fractional number you use a dot:
+
+3.14
+
+Show me the code!
+
+Try printing to the console any negative fractional number (remember: no quotation marks).

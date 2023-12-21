@@ -1,0 +1,30 @@
+<Hacking Challenge>
+Welcome, <Beta Code Cadet>! To proceed on your mad journey from programming n00b to full-fledged <Code Cadet>, you must now work alongside fSociety's ultra dope hacking crew && show us how awesome your coding skills truly are!
+
+But fear not, newbie “JavaScripter”… We won't be sending you into EvilCorp's turf unprepared!
+
+Here, in our very own IDE, you'll be learning the basics of the JavaScript programming language and, once you get to the end of it, you will be damn ready to rub shoulders with us at one of our workshop days! Trust us!
+
+That workshop day is the last stage of our admission process, and it's a chance to finally meet face-to-face as well as to assess the mad coding skills you’ve developed during this code challenge.
+
+Each task here will teach you a new concept and ask you to write a little bit of code to show you’ve fully understood it.
+
+On our IDE’s left side you will find the concept's explanation and the instructions on what you need to do.
+
+In its centre you have the editor, aka where you can write your code to do what is being asked. 
+
+On the right is where you can see the output of your program.
+
+In order to see what your code is currently doing, you just need to click the “Execute” button at any given point.
+
+If you get a “Code is correct” message, that means your code is working just fine, and you can move on to the next question.
+
+If, instead, the message you get is “Code is incorrect”, that means you're getting an error (something isn't right with your code)… That sucks but it’s just #AnotherDayAtTheOffice for both you and any seasoned programmer! No need to go all “Drama Queen” on yourself because of that, ok?
+
+When that happens, it just means you need to go over your solution and find out that nasty damn bug that is stopping you from moving on to the next question.
+
+Every once in a while you'll also be asked to complete a hacking task, using the knowledge you’ve hoarded while solving the exercises. Those hacking tasks, although scary at first glance, are precisely where you wanna be at: Not only they give way more points than regular exercises but they also will give you a better idea of what actual “real-life” programming feels like. 
+
+Once you have amassed enough points (as well as managed to master overcoming frustration with sheer resilience) to show us that you're not a total n00b anymore, you will then be awarded your much-coveted workshop “Golden Ticket”, aka you’ll have earned yourself a spot at one our workshop days.
+
+But enough chit-chat… Let’s get going and get some coding done, right? Can you prove to Elliot and to the fSociety gang that you really are one of them?! Are you ready to take down EvilCorp?! Are you a 0 or the (special) 1?

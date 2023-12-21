@@ -1,0 +1,22 @@
+<Express yourself>
+
+You saw what happens when dealing with number 9 or any other number. We say number 9 is a value, and so are all other numbers.
+Javascript also provides some arithmetic operators which allow you to create an expression.
+
+2 + 9;
+
+An expression always produces a value, in this case the number 11, which will take the place of the entire expression once calculated.
+
+10 + 1;
+
+This is a completely different expression from the one before but they both produce the same value, which is the number 11.
+
+Expressions are not very useful on their own and we commonly use them inside statements. In the snippet below we have a console.log statement which receives an expression. JavaScript will start by resolving the expression to a value and only then will console.log do its work.
+
+console.log(2 + 9 + 3 + 8);
+   
+
+
+ 
+<Show me the code>
+Write four statements that all print 42 to the console, using four different expressions.

@@ -1,0 +1,21 @@
+<Don't do the math: ask for it>
+If I have seen further it is by standing on the shoulders of Giants.
+ISAAC NEWTON, 1675
+
+With the operators you know so far you can do a lot. You could calculate the power of an exponent, a square root, you could round a number, or even delve into some trigonometry. But this would be cumbersome, right? And your aim is to build an application, you don't want to reinvent the wheel everytime you face some mathematical conundrum.
+
+JavaScript creators knew this of course and they've provided you with some built-in operations through a special object called Math (you'll be hearing about JavaScript objects in length along the course, but for now let's focus on how to use this object Math).
+
+Let's start with one of the most useful actions it provides; obtaining a random value.
+
+A lot of times you'll need to use some random value in your program, specially when you're creating a game. If you were to produce this by yourself you'd soon find it's really hard to generate a random number. Fortunately JavaScript will do this for you just by writing this expression:
+
+Math.random();
+
+The  Math.random() expression will produce a random decimal value between 0 (inclusive) and 1 (exclusive).
+
+Show me the code!
+
+Print at least five different random numbers using Math.random().
+
+Take a minute to look at the results and then move on to the next lesson.

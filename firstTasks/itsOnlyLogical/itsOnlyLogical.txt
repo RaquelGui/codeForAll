@@ -1,0 +1,39 @@
+<It's only logical>
+How often have I said to you that when you have eliminated the impossible, whatever remains, however improbable, must be the truth?
+SHERLOCK HOLMES, Sign of the Four, Arthur Conan Doyle, 1890
+
+The logical operators represent the logical algebra operations (AND, OR, NOT) and its operands must be boolean values. These operations are not new to you, if you remember your CS101, and you will find it in all programming languages. In JavaScript you will use && for AND, || for OR, and ! for NOT.
+
+Let's try some examples.
+You'll use AND when you're checking if both conditions are true:
+
+var isRaining = true;
+var iAmOutside = true;
+var iAmWet = isRaining && iAmOutside;
+
+console.log(iAmWet); // outputs true
+isRaining = false;
+iAmWet = isRaining && iAmOutside;
+
+console.log(iAmWet); // outputs false
+isRaining = true;
+iAmOutside = false;
+iAmWet = isRaining && iAmOutside;
+
+console.log(iAmWet); // outputs false
+
+If you're checking if at least one of the conditions is true, you should use OR:
+
+var whatGothamNeeds = false;
+var whatGothamDeserves = true;
+var batman = whatGothamNeeds || whatGothamDeserves;
+
+console.log(batman); // outputs true
+
+Show me the code!
+
+Using the available variables, write the logical expressions and print the result of these encounters:
+
+    Round 1: You and Batman team up to fight crime in Gotham;
+    Round 2: Batman or Superman dealing with a tough criminal;
+    Round 3: Superman and Kryptonite happened to be very close to each other;

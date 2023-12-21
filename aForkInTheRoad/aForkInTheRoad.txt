@@ -1,0 +1,29 @@
+<A Fork in the Road>
+Alice came to a fork in the road. 'Which road do I take?' she asked. 'Where do you want to go?' responded the Cheshire Cat. 'I don't know,' Alice answered. 'Then,' said the Cat, 'it doesn't matter.'
+LEWIS CARROL, Alice in Wonderland, 1865
+
+We've already seen how to use if statements in our code so that the statements inside of the if block are only executed if the condition evaluates to true.
+
+However in some cases the question is not the conditional execution of a certain block, but rather that if a block is not executed then another set of statements should be. When you want to apply either/or logic you can use an if...else statement. They look like this:
+
+var condition;
+
+if (condition) {
+    console.log('This is printed if condition is true.');
+} else {
+    console.log('This is printed if condition is false.');
+}
+
+Much like with an if statement, the condition in an if...else must be a boolean expression. Typically we don't know when writing the code how the expression will be evaluated, only that if it is true the code in the if block will execute, if it is false the code in the else block will execute.
+
+var percentageOfWaterInGlass = Math.random() * 100 // generates number between 0 and 100
+
+if (percentageOfWaterInGlass >= 50) {
+    console.log('Glass is half full! :-)');
+} else {
+    console.log('Glass is half empty... :-(');
+}
+
+Show me the Code!
+
+Take the if statement you created in the previous exercise and add an else statement. Inside the code block of the else statement, console.log() a string.

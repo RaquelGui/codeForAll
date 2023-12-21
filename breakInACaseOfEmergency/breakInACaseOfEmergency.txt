@@ -1,0 +1,24 @@
+<Break in case of emergency>
+I want to break free.
+FREDDIE MERCURY, The Works, 1984
+
+Even when we define an exit condition, there are some special cases where we might want to stop the loop before that condition is met. The exit condition we use inside the parenthesis is not the only way a loop can finish.
+
+There is a special keyword break that will have the effect of immediatly jumping out of the loop and moving onto the code after it.
+
+Usually we'll use the break keyword inside an if statement.
+
+var countdown = 10;
+var malfunction = false;
+while (countdown > 0) {
+    countdown--;
+    if(malfunction === true) {
+        break;
+    }
+}
+
+Show me the code!
+
+Remember a couple of exercises back we created a program capable of guessing numbers until the correct guess was reached?
+
+Now let's try to add a maximum number of tries to guess the target number. You have five tries, but if you guess it first, print a message and break out of the loop.

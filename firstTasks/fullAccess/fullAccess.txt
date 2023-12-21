@@ -1,0 +1,41 @@
+<Full access>
+What's in the box?!
+DAVID MILLS, Se7en, 1995
+
+Think of a variable as a labeled box which will hold something inside at a given time. Whenever you need that something you open the box and you have access to it. It's important to understand that this box can only hold one value at a time.
+
+You may change the content of the box, but you cannot have two values inside of it at the same time. Sometimes you'll be tempted to think of the box and the value as the same thing. They are not!
+
+Let's keep this analogy in mind and walk you through some scenarios.
+
+Assign a new value to a variable
+var myAge = 28;
+myAge = 29; 
+
+You're already familiar with the first statement: we're declaring a variable called myAge and assigning a value to it. With the second statement you're assigning another value to the same variable. It's still an assignment operation, so you should read it from right to left. 
+
+The box now has the number 29 inside. Don't expect the box to remember which value it had before. 28 is forever lost. :-(
+
+ 
+
+
+
+Accessing a variable
+
+At any time you may check what's in the box and use that value as you may please. For instance, you can print it to the console:
+
+console.log(myAge);
+
+You're using the name of the variable (the box's label) to access its value, but - and this is important - JavaScript will create a copy of the value and pass it on to the console.log(). In this specific case, the number 29.
+
+What do you think would happen if you execute something like this:
+
+var myTwinBrotherAge = myAge;
+
+Think about it for a minute. It's time to code.
+
+Show me the code!
+
+Initialize a variable called price with a value of 100 and print it to the console.
+
+Change the value to any other number and print it again.

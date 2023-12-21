@@ -1,0 +1,26 @@
+<Pimping your code>
+Less is more.
+LUDWIG MIES VAN DER ROHE, circa 1900
+
+Sometimes you'll have the need to increment the value of a variable by a given amount and the most straight forward way to do it will be:
+
+var speed = 130;
+speed = speed + 20;
+console.log(speed); // outputs 150
+
+There's nothing wrong with this statement and it will produce the desired effect, but this type of operation is so recurrent that JavaScript provides some special operators to deal with them. They're assignment operators (like the = sign you already know) but they do something else.
+
+speed += 30; // this is the same as speed = speed + 30;
+console.log(speed); // outputs 180
+
+It's possible to do the same with all the other arithmetic operators: -=, *=, /=, and %=.
+
+Before you try these operators, a bit of a pro tip: sometimes you'll be tempted to think that when programming, less is always more.
+
+Although it's very cool to write code in a synthetic and elegant manner, remember that code is meant to be read by humans, hence sometimes it's better to write three or four lines instead of one if it makes your intention clearer and your code more readable.
+
+Show me the code!
+
+Increase the value of the seconds variable by 60 using the addition assignment operator and print its value to the console.
+
+Double the value of the jackpot variable using the multiplication assignment operator and print its value to the console.

@@ -1,0 +1,20 @@
+<Hello, Friend...>
+Hello friend? That's lame. Maybe I should give you a name. But that's a slippery slope, you're only in my head, we have to remember that. Shit, this actually happened, I'm talking to an imaginary person. What I'm about to tell you is top secret.
+ELLIOT ALDERSON, Mr. Robot, 2015
+
+Say "hello" to my little friend.
+TONY MONTANA, Scarface, 1983
+
+As we learned in CS101 a program is just a set of instructions you provide a computer. Yet you don't get to see every operation your CPU will process (a sum, a loop, a message) unless you specifically tell it to. Sometimes you'll use this feature to interact with the user of your application. Sometimes you're just checking if your program does what you think it does. Other times you want to register some events that are happening during the program execution for future reference.
+
+The medium where this output is sent to may also vary: your screen; a piece of paper; a file in your hard drive; another computer an ocean away. During this challenge, your output will be the pane to the rightmost of this window. We've called it the console and that's where you'll log your journey but also where we will give you feedback on your progress.
+
+Show me the code!
+
+Let's get down to it right now and print your welcome message to the console:
+
+console.log('Hello, friend!');
+
+Write this line of code in the editor and press Execute to see the result.
+
+You should know that JavaScript is case sensitive. If you try to execute Console.log('hello'), you'll get an error because console and Console are two different things. So be careful when writing your code. ;-)

@@ -1,0 +1,23 @@
+<The smooth operator>
+There's two ways you can go on this job: my way or the highway. Now what's it gonna be, Mr. Pink?
+JOE, Reservoir Dogs, 1992
+
+We've seen a lot of boolean operators and how to combine them. The expressions that produce a boolean value are called conditions. But what have we done with these values so far? We've just printed it to the console or stored it in some variable. There must be more to life.
+
+We can use these values to make a decision between two choices, and there's one last operator that was built just for this. It doesn't take one, nor two, but three operands. It's called the conditional operator, but most of the time just ternary operator, since there's no other quite like it in JavaScript.
+
+var speed;
+var whatNow = speed < 80 ? 'BOOOM!' : 'Keep driving';
+console.log(whatNow); // if speed is lower than 80 bus explodes; if not, you better keep driving
+
+This is a very elegant and expressive operator, it reads almost like an english sentence.
+
+You first evaluate the condition before the ? (it MUST be a condition, a boolean expression). If it's true the ternary will produce the value from the expression to the left of the : sign; if it's false, the one to the right.
+
+Show me the code!
+
+Generate a random integer number between 0 and 99 and assign it to the luck variable.
+
+Write a condition using the ternary operator that checks if Mr. Pink's luck is greater than 90. If so, the conditional statement should assign 'Mr. Purple'  to alias. Otherwise, it should assign it with  'Mr. Pink'. 
+
+Print the alias value to the console.

@@ -1,0 +1,21 @@
+<The remainder>
+Your net worth to the world is usually determined by what remains after your bad habits are divided by your good ones.
+BENJAMIN FRANKLIN, circa 1760
+
+There's another arithmetic operator that may be less familiar to you: the remainder, represented by the % symbol. It just gives you the remainder of a division between two numbers. 
+
+38 % 10; // returns 8
+21 % 3; // returns 0
+
+  
+
+ 
+
+ 
+There are a lot of applications for this operator besides simply finding the remainder of a division. try thinking about some of them before completing this exercise.
+
+Show me the code!
+
+To your right you'll see an operation which will produce a fractional number.
+
+Experiment with the remainder operator in order to print the remainder of any division.

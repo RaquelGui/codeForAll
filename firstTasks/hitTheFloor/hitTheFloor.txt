@@ -1,0 +1,38 @@
+<Hit the floor>
+Round numbers are always false.
+SAMUEL JOHNSON, circa 1744
+
+You now know how to produce a random value between 0 and 1, but what good does this do if you're building a simple game to guess a number between 1 and 10, for example? With some ingenuity and the remainder operator you could probably do it, but once again, let's check if the Math object can help us with this.
+
+First, let's try broadening the range of numbers we get with Math.random():
+
+var someRandomNumber = Math.random() * 10;
+console.log(someRandomNumber); // outputs ??
+
+This is better, and it will give you some number between 0 and (almost, but never) 10. It's not quite yet what we need, though. If you try to run this piece of code several times, you'll get results like:
+
+1.4955971946987823
+1.983705533342317
+9.0147579678726
+6.03399799832817352
+3.8078846600686993
+7.007664400552255
+0.320607558402799
+5.566288797336244
+
+There is a functionality provided by the Math object that can help you get rid of the decimal part of the number. The Math.floor(), and you'll use it like so:
+
+var wholeRandomNumber = Math.floor(someRandomNumber);
+
+Math.floor() will produce the integer number less than a given number. In other words it will round the number down. You could even combine these two Math operations and get what you need in just one statement: 
+
+console.log(Math.floor(Math.random() * 10)); //outputs a random number between 0 and 9
+
+It's almost fine. But if you do the math (pun intended) you'll notice that this statement will only produce numbers between 0 and 9. What if we want a number between 1 and 10?
+Math.ceil() to the rescue! This method will produce an integer greater than a given number, aka round the number up. So there you have it:
+
+console.log(Math.ceil(Math.random() * 10)); //outputs a random number between 1 and 10
+
+Show me the code!
+
+Print a random integer number between 1 and 42 (both inclusive) to the console.

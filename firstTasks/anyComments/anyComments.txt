@@ -1,0 +1,27 @@
+<Any comments?>
+You talking to me?
+TRAVIS BICKLE, Taxi Driver, 1976
+
+Sometimes you'll feel the need to add some notes, reminders, or just a brief explanation of what you're trying to achieve with the code you've just written. In JavaScript these are called comments, and you have two ways of defining them:
+
+Single Line comment
+// This line is a comment
+console.log('Hello, friend');
+console.log('Hello, friend'); // this is a comment
+Multi-line comment
+/*
+Anything inside this multi-line comment
+console.log('Hello');
+console.log('World');
+will be ignored and will not be executed.
+*/
+The machine will ignore your comments, but the person reading your code won't (hopefully).
+
+ 
+
+
+
+Show me the code!
+Let’s practice adding some code comments. 
+To the right, we’ve provided you with an excerpt from a series written by a famous hacker, Aaron Swartz, titled  Raw Nerve. On line 1, write a single line comment that states Thoughts on Getting Better.
+Use a multi-line comment so that the console.log statements on lines 2 - 8 are commented out.

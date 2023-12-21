@@ -1,0 +1,22 @@
+<Text me>
+Call him Voldemort, Harry. Always use the proper name for things. Fear of a name increases fear of the thing itself.
+ALBUS DUMBLEDORE, Harry Potter and the Sorcerer's Stone, J. K. Rowling, 1997
+
+We can do a lot using just numbers - in fact your computer will probably be more comfortable with numbers than with any other type of data (there's another type which is even closer to the machine, but we'll get to that later).
+
+Us humans however have a more difficult time communicating solely through numbers. That is where text comes in. 
+
+In JavaScript text is represented by strings. A string is a sequence of characters in a specific order and they are written by enclosing its content either with double or single quotes:
+
+"My favourite film is Double Indemnity";
+'Really? I prefer Single White Female';
+
+You can use whichever you prefer as long as you open and close the string with the same one. 
+
+You've already tried writing some code with strings, right? Your first task during this challenge was printing some text to the console. Our 'hello, friend'.
+
+Let's talk about strings in a little more depth now. First of all, strings are values in JavaScript, and if they're values you can store them in variables, just like you did with numbers.
+
+Show me the code!
+
+Create a variable with a meaningful name and store a string in it representing your first name. After that, go ahead and print it.

@@ -1,0 +1,37 @@
+<History repeating>
+Gilbreth studied the methods of various bricklayers—the poor workmen and the best ones, and he stumbled upon an astonishing fact of great importance and significance. He found that he could learn most from the lazy man! Most of the chance improvements in human motions that eliminate unnecessary movement and reduce fatigue have been hit upon, Gilbreth thinks, by men who were lazy—so lazy that every needless step counted.
+Popular Science Monthly, 1920
+
+There are two genres of people who hate to repeat themselves: moms and programmers. We'll avoid your mom jokes for now and step right into the problem programmers face with repetition. Consider a simple program that counts from one to five. With what you already know this could be easily written like so: 
+
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+
+This is cumbersome and it seems to go against the very purpose of programming and computation. Do more with less. Also, if we were to count to one hundred or a couple of millions, it would be a nightmare to write. There must be a better way.
+
+Even if the lines above are not exactly the same, we can see a pattern and we need a way of running that same line with minimal variation, multiple times. We already know how to create a loop with while, we just need to use it to iterate a determined number of times.
+
+A loop to deal with this kind of repetition is usually composed of three elements:
+
+a counter - initialized with some value;
+
+an exit condition - usually a boolean expression; if it evaluates to true the loop will stop; and
+
+an iterator - somewhere inside your loop you'll need to update your counter.
+
+var count = 1;  // The counter, initialized to 1
+while (count <= 5) { // the exit condition: until we get to 5
+    console.log(count);
+    count = count + 1; // the iterator updating the counter, incrementing it by 1
+};
+
+Altough we're using the same tool (the while loop), this case presents a different purpose. We're repeating some code a predetermined number of times.
+
+In both cases you must be very careful with your exit condition. If it's never met you will be stuck inside your loop forever.
+
+Show me the code!
+
+Declare a variable named countdown and assign it the value of 10. In a while loop, decrement the value of countdown once for every iteration and print it. Once countdown hits 0 print 'Blastoff' to the console.

@@ -1,0 +1,27 @@
+<Handling the truth>
+Do. Or do not. There is no try.
+YODA, The Empire Strikes Back, 1980
+
+We've finally got to the JavaScript value your computer understands best above all. The boolean. 
+
+Contrary to numbers or strings, which can assume billions of different values, the boolean comes with the great comfort of having two and only two possibilities:
+Yes or no; on or off; true or false; one or zero; do or do not.
+
+It just takes one question to be sure which boolean value a variable is holding. Are you not on? Then you must be off.
+
+The literal representation of these two values in JavaScript is the following:
+
+true
+false
+
+Just like that, no quotes whatsoever. If you need to assign a boolean value to a variable, this is how you'll do it:
+
+var myBoolean = true;
+
+Don't underestimate the power of a simple true or false statement. The world of computation is built upon binary logic. 
+
+Now the real fun begins.
+
+Show me the code!
+
+Why don't you go ahead and try to assign boolean values to the declared variables.

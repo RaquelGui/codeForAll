@@ -1,0 +1,49 @@
+<Switch it up>
+Nothing is so painful to the human mind as a great and sudden change.
+MARY SHELLEY, Frankenstein, 1818
+
+In the previous task we saw how to chain multiple if else statements together. However if we have a lot of branching possibilities the JavaScript language offers us another tool: the switch statement.
+
+The switch statement first evaluates the expression, then tries to match it to the value in one of the case clauses in the switch, and if a match is found executes the statements in that case.
+
+var expression = 'JavaScript';
+
+switch (expression) {
+    case 'Python':
+        console.log('This will only print if the value of expression is the string "Python".');
+        break;
+    case 'JavaScript':
+        console.log('This will only print if the value of the expression is the string "JavaScript".');
+        break;
+    default:
+        console.log('This will be printed if the value of the expression doesn\'t match the value in any of the case clauses.');
+        break;
+}
+
+As you noticed, besides each case there is also the default clause, which is executed if the expression evaluated in the switch statement does not match the value of any of the case clauses. 
+
+You might also be curious about the purpose of the break keyword at the end of each case, and what would happen if a break was not placed at the end of a case clause. Consider the following example:
+
+var superHero = 'Lucky Luke';
+
+switch (superHero) {
+    case 'Wolverine':
+    case 'Spider-Man':
+    case 'Iron-Man':
+        console.log('Huh, actually, ' + superHero + ' belongs to the Marvel Universe.');
+        break;
+    case 'Batman':
+    case 'Superman':
+    case 'Dr. Manhattan':
+        console.log('Everyone knows that ' + superHero + ' is DC Comics superhero.');
+        break;
+    default:
+        console.log('You know, I only follow American comics...');
+        break;
+}
+
+After executing the case clause with a value which matches the expression evaluated,  if break is omitted the program continues to execute the switch statement until one is found or the end of the switch is reached.
+
+Show me the code!
+
+Remember the die roll simulator? Go ahead and transform the if - else if - else statements into a switch statement and check out how it gets easier to read. 

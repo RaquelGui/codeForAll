@@ -1,0 +1,50 @@
+<Heart skips a beat>
+I went into a clothes store and a lady came up to me and said: 
+'If you need anything, I' m Jill'. 
+I'd never met anyone with a conditional identity before.
+DEMETRI MARTIN, Important Things With Demetri Martin, 2009
+
+You have been told that the execution of JavaScript statements is sequential. This means that the execution of a program works much like reading a story; statements are interpreted from top to bottom in the order in which they were written.
+
+However not all programs will have a straightforward execution, frequently we will want some statements to be executed depending on a certain condition. Meaning that if a certain condition is met we will want a statement to be executed, otherwise we will skip those instructions. This is called conditional execution and is achieved by using conditional statements.
+
+The simplest conditional statement you can use is called an if statement. The execution of the code inside of an if statement is dependent on the evaluation of the boolean expression on the if's conditional.
+
+var condition = false;
+
+if (condition) {
+    console.log('This is only printed if condition is true');
+}
+
+console.log('This is always printed');
+
+In the example above the condition in the if statement is a boolean value, however as stated above it can be a boolean expression, which as you know evaluates to a boolean value.
+
+var weather = 'rainy';
+
+if (weather === 'rainy') {
+    console.log('You should take an umbrella');
+}
+
+console.log('Off to school you go!');
+ 
+
+
+
+Of course the evaluation of the boolean expression in the if's conditional can change dynamically, hence the power of if statements. For example, one could use Math.random() to generate a random number, and compare it to a threshold value. Depending on the number generated, the statements inside the if block will be executed or skipped.
+
+var powerLevel = Math.random() * 10000; // generates random number between 0 and 9999
+
+if (powerLevel > 9000) {
+    console.log('His power level is over 9000!');
+}
+
+console.log('I will crush my enemies!');
+
+You'll notice that inside the if block (that is, between the curly braces {}) the next statement is slightly to the right, and not in line with the previous statement; this is called indentation.
+
+Here's another pro tip for you, it is much easier to read code that is well indented. When you write code that is not well indented, often it becomes very hard to read, and to understand where each block starts and ends. It is conventional to give 4 spaces or a tab at the beginning of the first statement in a block.
+
+Show me the Code!
+
+Create an if statement that will evaluate if the weather is rainy and you're feeling happy. If so, in the code block of the if statement, print the string "I am singing in the rain, just singing in the rain!".

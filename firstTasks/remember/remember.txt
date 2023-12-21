@@ -1,0 +1,23 @@
+<Remember, remember...>
+Our memories give us voice and bear witness to history, so that others might learn. So they might celebrate our triumphs and be warned of our failures.
+MOHINDER SURESH, Heroes, 2007
+
+Computer programs are all about data. If you remember your CS101, you know that the CPU is constantly storing, reading, and manipulating data from memory. In most programming languages you will be creating statements to do precisely this.
+
+But how do you allocate memory space to store a value in JavaScript? And how can you later in the program execution access that very memory to read a value you've previously saved?
+
+You use variables, to which you'll give meaningful and expressive names, whenever needed within your application. What will these represent? A player name, a year of birth, a credit card number or the maximum speed of a car. You can create variables to define the latitude and longitude of a GPS location or some high score.
+
+Simply put, you'll use variables to store any value you need to remember and use or change at a later moment in time.
+
+Let's start with a very common statement where we'll create a variable and store some value in it. By the way: when programming we have very specific names for these actions - creating a variable, and storing a value in it - and they are respectively definition and assignment. It's a very important distinction, and we'll talk about it in more depth later on.
+
+var myAge = 27;
+
+Before we break this statement into its constituent parts, let's put you to work.
+
+Show me the code!
+
+Declare a variable named myAge and assign it your age.
+
+After that, go ahead and print it to the console, see what happens.

@@ -1,0 +1,36 @@
+<For: a while>
+How much of you is repetition
+RODRIGUEZ, Crucify your mind, 1970
+
+Probably the most common loop pattern you'll find within your programs is the one we've used with the counter, the exit condition and the counter update after each repetition. Something like this:
+
+var counter = 0;
+while (counter < 5) {
+    console.log('all you do is repeat yourself');
+    counter++;
+}
+
+JavaScript and most programming languages will provide you with a more readable and shorter version to do this, it's called the for loop, and here's how it looks:
+
+for(initializer; exit condition; final expression) {
+   code to be repeated
+}
+
+The initializer is usually a variable set to some number; like the counter we've used above in the while loop;
+The exit condition, used in the same way as in the parenthesis of the while;
+The final expression, which is some expression that will always run after each iteration of the loop. Usually it will be something that will update some counter in order to bring it closer to the exit condition.
+
+Let's translate our while statement above into a for loop statement:
+
+for(var i = 0; i < 5; i++) {
+	console.log("this is a for loop: " + i);
+};
+
+So cool and tight isn't it? It's a widely used convention to name your counter i. It probably comes from a math convention, maybe it stands for iterator, maybe for index, nobody's really sure. Regardless, it stands as the convention in for loops.
+
+How do you choose between the while loop and the for loop when in need of iterating? They're pretty interchangeable in most situations, but as a rule of thumb use the while loop when you don't know when it'll end (roll dice until you hit a six), and the for loop when you're aiming to repeat some lines of code a known number of times (the rocket countdown).
+
+Show me the code!
+
+We've already declared a variable for you in the editor called number to which the value 42 was assigned. 
+Use a for loop to go through all numbers from number up to 50 (both inclusive), and check if they are multiples of 3. If they are, print them.

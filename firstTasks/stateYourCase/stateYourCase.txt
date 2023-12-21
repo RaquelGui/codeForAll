@@ -1,0 +1,24 @@
+<State your case>
+I really hate this damned machine
+I wish that they would sell it.
+It never does quite what I want
+But only what I tell it.
+A Programmer's Lament, unknown
+
+The instruction you previously wrote is called a statement. Think of a statement as a sentence, something that stands on its own and will produce some effect. In this case, you've printed a message to the console.
+
+Did you notice the semicolon at the end of the statement? This symbol is of utmost importance within a JavaScript program because this is your way of declaring the end of a statement. Anything that comes after the semicolon is a new statement.
+
+A JavaScript program is a set of statements that will be executed sequentially in the order you wrote them. This may seem a bit tautological but it must be present in your mind at all times as a programmer: each statement will be executed one at a time, and always after the previous one completes. 
+
+
+
+ 
+ 
+You're free to add tabs, spaces or blank lines, without changing the result. These are called whitespace and although they're ignored by the computer, they are really useful to make your code more readable to you and your fellow humans.
+
+For everyone's sanity please never forget that code is executed by a machine but read by people. ;-)
+
+Show me the code!
+
+Write the necessary statements to print the four verses of the Programmer's Lament quoted on top of this task in reverse order.
