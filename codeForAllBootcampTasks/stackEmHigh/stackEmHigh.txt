@@ -1,0 +1,23 @@
+<Stack em' high>
+Life is just a blast movin' very fast. Better stay on top or life will kick you in the ass.
+LIMP BIZKIT, Take a look around, 2000
+
+In the strings section of this challenge we saw how strings have in-built functionality, which allows us to perform operations on strings. The same is true for arrays. Here's a couple of things we can do with an array:
+
+var petShop = [ 'Puppies', 'Kitties', 'Hamsters', 'Bunnies', 'Birds' ];
+
+petShop.pop();
+console.log(petShop);    // prints ["Puppies","Kitties","Hamsters","Bunnies"]
+
+petShop.push('Piglets');
+console.log(petShop);    // prints ["Puppies","Kitties","Hamsters","Bunnies","Piglets"]
+
+In the snippet above we can see two array methods in action: push() and pop().
+
+As we can see the pop() method removes the last element from the array, while the push() method adds the element passed as argument to the end of the array.
+
+Show me the Code!
+
+Using the methods you have learned, modify the xMen array already declared in the editor so that only members of the X-Men are present.
+
+Then add all of the mutants present in the xMen array to the freelancers array.

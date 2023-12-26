@@ -1,0 +1,21 @@
+<Typical...>
+In order to be irreplaceable one must first be different.
+COCO CHANEL, Gospel According to Coco Chanel, 2009
+
+It has been said that a computer program is only the ability to store and manipulate data. So far we have learned about some of data types available in JavaScript: Number, String and Boolean.
+
+However in the last section we were introduced to a different data type: undefined. The value undefined represents the unintentional absence of a value. It's defined by the keyword undefined.
+
+Another data type you will come across is null, which represents the intentional absence of a value. It is defined by the keyword null.
+JavaScript offers us an operator which used before a variable will return the type of data stored in that variable. This operator is called typeof and here's an example of how to use it:
+
+var slogan = 'To infinity and beyond!';
+var helmetOn = true;
+console.log(slogan + ' is a ' + typeof slogan);
+// prints 'To infinity and beyond! is a string'
+console.log(helmetOn + ' is a ' + typeof helmetOn);
+// prints 'true is a boolean'
+
+Show me the Code!
+
+Declare a variable named soTypical. Assign it with a value of your choice and print the variable's type to the console.

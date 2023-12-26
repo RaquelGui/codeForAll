@@ -1,0 +1,32 @@
+<The Fun in Function>
+They seemed to be able to choose. We seemed to be able to choose, then. We were a society dying of too much choice.
+MARGARET ATWOOD, The Handmaid's Tale,  1985
+
+Now I know that I captured your attention! Can you think of ways we could take advantage of the ability to pass a function as another function's argument? Let's take our cakeRecipe and bakeInOven functions from the previous section and write another function called breadRecipe.
+
+var cakeRecipe = function() {
+    return 'Batter Mix of Water, Flour, Sugar, Baking Powder and Eggs';
+};
+
+var breadRecipe = function() {
+    return 'Batter Mix of Water, Flour, Baking Soda and Salt';
+}
+
+var bakeInOven = function(recipe) {
+    console.log('Baking: ' + recipe());
+}
+
+bakeInOven(cakeRecipe);    // prints 'Baking: Batter Mix of Water, Flour, Sugar, Baking Powder and Eggs'
+bakeInOven(breadRecipe)    // prints 'Baking: Batter Mix of Water, Flour, Baking Soda and Salt'
+
+Passing a function as an argument gives us a lot of flexibility. As you can see we did not need to rewrite the bakeInOven function to be able to pass it the breadRecipe function and bake bread batter mix rather than a cake batter mix. It stands to reason that we could simply add more recipes to our code, like a sundayRoastRecipe or a dryWetSocks function.
+
+Regardless of the function passed as the argument recipe, it will be invoked and its return value will be printed to the console. This means that we can use the bakeInOven function with any number of recipes, without having to change its implementation.
+
+Show me the code!
+
+Start by repeating the code you wrote for the last section (the calculate and add functions).
+
+Declare a variable multiply and assign to it a function declaration taking two arguments, operand1 and operand2, and which returns the result of the multiplication of the arguments.
+
+Invoke calculate twice, passing it as a third argument the add and multiply functions respectively.

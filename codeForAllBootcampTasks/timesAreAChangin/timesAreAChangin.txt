@@ -1,0 +1,18 @@
+<Times are a-changin'>
+It is not the strongest or the most intelligent who will survive but those who can best manage change.
+LEON C. MEGGINSON, 1963
+
+We can think of an array as a sequence of variables which can be accessed by their index in that array. Last exercise we saw how to access an element using square bracket notation. 
+
+If as we saw before, we can access an element of the array it stands to reason that we will be able to change the value stored in that element, much like we do with a variable.
+
+So if in our pet shop we wanted to replace the snakes on the fourth cage we would do something like this:
+
+var petShop = ['Puppies','Kitties','Hamsters','Snakes','Birds'];
+petShop[3] = 'Bunnies';
+console.log('In the fourth cage we have: ' + petShop[3]); // prints 'In the fourth cage we have: Bunnies'
+
+Show me the code!
+
+Change the value of the last element of the array cakeIngredients to 'lemon'. Print the array.
+

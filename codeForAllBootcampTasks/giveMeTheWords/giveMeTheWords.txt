@@ -1,0 +1,30 @@
+<Give me the words>
+What about getting a single string from an array of strings?
+
+var randomWords = [‘There’, ‘must’, ‘be’, ‘a’, ‘better’, ‘way’];
+
+Once again you already have the tools to go through each string with a loop and with the + operator concatenate each word within a new string.
+
+var randomWords = ['There', 'must', 'be', 'a', 'better', 'way'];
+var sentence = '';
+
+for (var i = 0; i < randomWords.length; i++) {
+    sentence += randomWords[i];
+  
+    if(i < randomWords.length - 1) {
+        sentence += ' '; // add a space as a word separator
+    }
+}
+
+But by now you should be noticing a pattern. Yes, there’s a method.
+
+JavaScript arrays are built with a method join, which produces a string from an array of strings. Once again, you must specify a separator. If you don’t, a comma will be used between each string:
+
+var phrase = randomWords.join();
+console.log(phrase); // prints 'There,must,be,a,better,way'
+
+This probably isn’t the intended result for this string, but you could pass a string with a space character as an argument to the join method to solve this.
+
+<Show me the Code>
+Use the join method on the given array to produce the string There must be a better way
+And then go ahead and print your new string.

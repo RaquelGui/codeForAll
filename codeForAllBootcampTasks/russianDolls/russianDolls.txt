@@ -1,0 +1,32 @@
+<Russian Dolls>
+If you're going to perform inception, you need imagination.
+DOMINICK COBB, Inception, 2010
+
+So far we have seen how to create both objects and arrays, as well as how to access and change the data stored in them using bracket notation (arrays) and dot notation (objects). In these data structures we can store all types of data right? That means that we can store an object or an array, both as an object's property or as an element in an array.
+
+First let's look at an object which has another object as one of it's properties:
+
+var newspaper = {
+    name: 'Daily Bugle',
+    city: 'New York',
+    editor: {
+        name: 'J. Jonah Jameson',
+        job: 'Editor-in-Chief',
+        gender: 'Male'
+    }
+};
+
+We just created an object, stored in the variable newspaper, which has a property called editor that is itself an object. Here's how we access and print the value stored in the property name of that object:
+
+console.log(newspaper.editor.name);
+// prints 'J. Jonah Jameson'
+
+In the snippet above we use dot notation to access a property of the object stored in newspaper, which in turn is an object. It is therefore possible to access the property name of said object. 
+
+Show me the code!
+
+To a variable named fellowship assign an object with the properties place and ringBearer.
+
+Assign the string 'Middle-earth' to place and an object to ringBearer. That object should have a property name with the value 'Frodo Baggins' and a property race with the value 'hobbit'.
+
+Finally, access the object fellowship to print the string 'hobbit'. 

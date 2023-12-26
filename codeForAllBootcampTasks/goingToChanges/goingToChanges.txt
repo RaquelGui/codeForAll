@@ -1,0 +1,29 @@
+<Going through Changes>
+Your old road is rapidly agin''. Please get out of the new one, for the times they are a-changin'.
+BOB DYLAN, The times they are a-changin', 1962
+
+Of course we might want to change the value stored in an object's property. Let's use the object we have been analising these last exercises to see how.
+
+var notAHero = {
+    fullName: 'Peter Parker',
+    job: 'Photographer',
+    age: 23
+};
+
+We can change the value associated with a key. As we can see below by using dot notation to access the property, and then using the assignment operator to store a new value in that property.
+
+notAHero.job = 'Photographer/Super Hero';
+notAHero.age = 24;
+
+Let's take a look at how these changes affected the state of the object by printing it to the console.
+
+console.log(notAHero);
+// prints {fullName: "Peter Parker", job: "Photographer/Super Hero", age: 24}
+
+Pro-Tip: If you try to assign a value to a property which does not yet exist in the object, a new property with that name will be added to the object.
+
+Show me the Code!
+
+Reassign the nickname property of the wizard object to have the value of 'the chosen one'.
+
+Finally, print the wizard object.

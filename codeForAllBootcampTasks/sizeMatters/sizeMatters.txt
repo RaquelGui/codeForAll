@@ -1,0 +1,26 @@
+<Size Matters>
+It is not the size of the dog in the fight, it is the size of the fight in the dog.
+JOHNNY, MacFarland USA, 2015
+
+You probably still remember the string exercises. In one of them we learned that we are able to know the length of a string by accessing the value stored in that string's length property. Arrays also have this property, and we can check its value using dot notation:
+
+var petShop = ['Puppies','Kitties','Hamsters','Bunnies','Birds'];
+console.log('There are ' + petShop.length + ' types of animals in the shop.'); // prints 'There are 5 types of animals in the shop.'
+
+This means that regardless of size, the last element of any array will have an index equal to the length of that array, subtracted by one.
+
+var petShop = ['Puppies', 'Kitties', 'Hamsters', 'Bunnies', 'Birds'];
+console.log('The last cage in our pet shop has ' + petShop[petShop.length - 1]);
+// prints 'The last cage in our pet shop has Birds' to the console.
+
+What do you think will happen if we try to access an element of our array which doesn't exist? For example if we tried to access an element with an index larger than the numbers of existing elements in the array? As we can see in the code snippet below, undefined is returned.
+
+var petShop = ['Puppies', 'Kitties', 'Hamsters', 'Bunnies', 'Birds'];
+console.log('Behind the last cage in our shop is ' + petShop[petShop.length]);
+// prints 'Behind the last cage in our shop is undefined' to the console.
+
+Show me the code!
+
+Declare a variable called movieList and assign an array with your favourite movies featuring animals. 
+
+Print the length of the array to the console.

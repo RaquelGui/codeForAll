@@ -1,0 +1,38 @@
+<Settle the argument>
+Count me in every time. I bear messages which will make both your ears tingle.
+BRAM STOKER, Dracula, 1897
+
+var double = function (x) {
+    console.log(x * 2);
+};
+double(3); // outputs 6
+double(1000); // outputs 2000
+
+1. Whenever you're using the keyword function, you're declaring a new function.
+
+2. Inside the curly braces you're determining what will be executed everytime you call the function. This is called the function body.
+
+3. You've noticed our function has a variable inside the parenthesis which will be used inside the body. Why do we need it? Well, you want to be able to double any given value, but you don't know yet which one it will be, so you use a variable that exists only in the function body. It is called the parameter.
+
+4. Whenever someone calls this function, they have to pass a value to it. This value we pass to the function is called the argument.
+
+Do we need to have a parameter when declaring a function? Not at all. You've used some functions that don't take any arguments. Math.random, for example.
+
+Let's create another one:
+
+var sayHello = function(){
+    console.log('hello, friend');
+};
+sayHello(); // outputs hello, friend
+
+You're probably guessing that you can have two, three, and more parameters when defining your function. You just need to separate each one by a comma. And the same when calling the function. The world is your oyster, kid. 
+
+var add = function (n1, n2) {
+    console.log(n1 + n2);
+};
+add(2, 4); // outputs 6
+add(9, 5); // outputs 14
+
+Show me the code!
+
+Let's declare a function called personalGreeting. This function takes a name as an argument and it should print to the console a personalized greeting. We're already testing it, all you need to do is declare it.

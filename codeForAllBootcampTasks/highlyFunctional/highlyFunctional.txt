@@ -1,0 +1,37 @@
+<Highly Functional>
+The art of giving orders is not to try to rectify the minor blunders and not be swayed by petty doubts.
+SUN TZU, The Art of War, circa 500 BC
+
+You've become a pro at using objects, but there's a little secret about functions that we were saving for the end. In the sections that led you here we have learned how to declare a function and store it in a variable, or as an element in an array.
+
+We've seen that accessing a variable that holds a function is accessing it's value, and that to invoke that function we merely needed to append a pair of parenthesis. This means you could invoke a function stored in an array by accessing the element where it is stored followed by parenthesis.
+
+Well, if it is possible to store a function in a variable or in an element of an array, what stops us from passing the value of a function as an argument of another function?
+
+If that argument holds the function's value does that mean we can invoke it? And how could that be useful?
+
+In JavaScript a function can be passed as an argument on the invocation of another function. This can be hard to wrap your head around. Consider the following example:
+
+var cakeRecipe = function() {
+     return 'Batter Mix of Water, Flour, Sugar, Baking Powder and Eggs';
+};
+
+var bakeInOven = function(recipe) {
+    console.log('Baking: ' + recipe());
+};
+
+bakeInOven(cakeRecipe);    // prints 'Baking: Batter Mix of Water, Flour, Sugar, Baking Powder and Eggs'
+
+We can see in the code snippet above that the value of cakeRecipe is passed as an argument to the invocation of bakeInOven. The parameter recipe will hold the value of whichever function is passed as argument (in this case cakeRecipe).
+
+Because in the function's body we append parenthesis to recipe, the function stored therein will be invoked. 
+
+Show me the code!
+
+Declare the variable add and assign it a function which takes two arguments, operand1 and operand2, and returns the sum of those arguments.
+
+Declare the variable calculate and assign it a function which takes three arguments, operand1, operand2 and operation.
+
+Inside the body of calculate, invoke the function passed as the argument operation, passing as arguments operand1 and operand2, and print the result of this invocation to the console.
+
+Don't forget to invoke calculate passing it the add function as a third argument.

@@ -1,0 +1,42 @@
+<To each his own>
+No man, proclaimed Donne, is an island, and he was wrong. If we were not islands, we would be lost, drowned in each other's tragedies. We are insulated (a word that means, literally, remember, made into an island) from the tragedies of others, by our island nature, and by the repetitive shape and form of the stories.
+NEIL GAIMAN, American Gods, 2001
+
+We now need to talk about a very important concept when dealing with functions. Truth be told, when dealing with programming in general: scope.
+
+Variables defined inside a function have their own scope. That is, any variable defined inside the body of a function will not be visible in any other area of the program. In fact, they will only exist during the execution of that function. This is true for local variables and for the function arguments (which in reality are local variables as well).
+
+Let's look at some code:
+
+var simonSays = function(message) {
+    var prefix = 'Simon says: ';
+    console.log(prefix + message);
+};
+console.log(prefix); // error!
+
+The scope of the prefix variable is the body of the function stored in simonSays. Outside of it you can't access it in any way. It's as if it doesn't exist.
+
+The same goes for message, which is a function parameter and therefore, as you know, only exists inside its scope. So we can't access a function's scope from the outside. But can we access the outer scope from inside the function? We can!
+
+What about variables not declared inside of functions, what scope are they in? You've declared loads of these!  They are said to be in the global scope, which means they'll be accessible from anywhere in the program, even inside functions.
+
+var hero = 'Batman';
+
+var peekInsideBatcave = function() {
+    var batmanRealName = 'Bruce Wayne';
+    console.log(hero + ' is ' + batmanRealName); // outputs 'Batman is Bruce Wayne';
+};
+
+console.log(hero + ' is ' + batmanRealName); // error!
+
+See what we did there? We have access to the hero alias everywhere in our program, but only inside the peekInsideBatcave do we have access to batmanRealName. If you try to access it outside of the peekInsideBatcave function you get an error.
+
+Show me the code!
+
+Declare a global variable called counter and assign it 0.
+
+Declare a function called incrementCounterBy, which receives a parameter called amount. It should increment counter by the amount.
+
+Declare a function called resetCounter that should set the counter value back to 0.
+
+Test your counter and have some fun. 

@@ -1,0 +1,12 @@
+<Hacking Task #3>
+One of your accomplices was able to physically steal a hard drive from one of fSociety's targets, however the victim had safeguards in place and was able to corrupt the data on the disk.
+
+Now back in the arcade you have been tasked with recovering the jumbled data, which is central to fSociety's next big play.
+
+You can leave the data on the disk as it is , but you should be able to copy it to a new hard drive, and be able to print it.
+
+Instructions
+
+Copy the uncorrupted data in the array stored in targetDisk to the empty array newDisk (corrupted data looks like this: ø). Then print the contents of the disk to the terminal as a string.
+
+To complete this task remember the arrays' methods we have learned so far.

@@ -1,0 +1,25 @@
+<Call me, maybe>
+I carried recipes in my head like maps. All kinds of recipes: torn form abandoned magazines in busy raiway stations, wheedled from people on the road, strange marriages of my own confection.
+VIANNE ROCHER, Chocolat, Joanne Harris, 1999
+
+You've done so much already. You've built programs which manipulate strings, perform complex arithmetic operations, you've created little games, using loops and conditions to control the flow of your code. You've used variables and arrays to store data in a meaningful and orderly manner. In these you've been storing values which can be numbers, booleans, strings.
+
+It's time we move to a core concept in JavaScript, maybe the core concept in JavaScript: Functions.
+You've already used functions multiple times within this challenge. With the exception of for and while loops, as well as if and switch statements, everytime you've used a set of parenthesis you've been using functions.
+
+log( );
+random( );
+push( );
+toUpperCase( );
+
+When you used these we said you were using JavaScript built-in functionalities. We chose this term deliberately (we're smart like that). When you use these names to call any of these functions, a block of code, previously written by someone, is executed.
+
+Having pieces of code wrapped inside a value is really helpful. JavaScript will allow you to create your own functions, which will make your code less repetitive, more organized and readable, unleashing some new possibilities you've probably never thought about.
+
+Show me the code!
+
+When we save these blocks of code for later use, we say we're declaring a function. Let's try it right now.
+
+We're going to declare a simple function for you, your task for now will be calling it three times, each time with a different value.
+
+You'll need to use the name we've given to the variable, followed by a number inside a pair of parenthesis.

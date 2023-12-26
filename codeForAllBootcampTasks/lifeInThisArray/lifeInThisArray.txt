@@ -1,0 +1,35 @@
+<Life in this array>
+Chaos is merely order waiting to be deciphered.
+JOSÉ SARAMAGO, The Double, 2002
+
+Remember when we saw how to store data in a variable so we could access it later? That’s great if you only have to store one value, but what if we want to store and access a group of related values?
+Imagine we want to represent a pet shop and in it we want to store some of the animals you would find in one. How could we do that using only variables? Maybe you are thinking of something like this:
+
+var cage1 = 'Puppies';
+var cage2 = 'Kitties';
+var cage3 = 'Hamsters';
+var cage4 = 'Snakes';
+
+If we wanted to add a cage to our pet shop and list the animals in it we could had the following lines to our code:
+
+var cage5 = 'Birds';
+console.log('This shop sells: ' + cage1 + ', ' + cage2 + ', ' + cage3 + ', ' + cage4 + ', ' + cage5  + '.');
+// prints 'This shop sells: Puppies, Kitties, Hamsters, Snakes, Birds.'
+
+However there is a much more elegant solution for these situations and many others. A data structure called an array.  In the next couple of challenges you'll add arrays to your programmer's toolkit.
+
+We can create an array by using square brackets [ ]. Inside the square brackets you can insert multiple elements, separating them by a comma. The order of the elements in the array will be the order they had when that array was created. 
+
+var petShop = ['Puppies', 'Kitties', 'Hamsters', 'Snakes', 'Birds'];
+console.log('This shop sells: ' + petShop);
+// prints 'This shop sells: Puppies,Kitties,Hamsters,Snakes,Birds'
+
+Above we can see that when we print the variable where the array is stored the elements are printed in their order, separated by a comma.
+
+Show me the code!
+A dry martini. One. In a deep champagne goblet. Three measures of Gordon’s, one of vodka, half a measure of Kina Lillet. Shake it very well until it’s ice-cold, then add a large thin slice of lemon peel.
+JAMES BOND, Casino Royal ,1953
+
+Declare a variable named vesperMartini and assign to it a new array. This array should contain the five ingredients needed for James Bond's Vesper Martini Recipe. 
+
+Print the array with the ingredients to the console. 

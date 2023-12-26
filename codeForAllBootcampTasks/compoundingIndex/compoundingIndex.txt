@@ -1,0 +1,35 @@
+<Compounding Index>
+There is generally one person in every situation you must never underestimate the power of.
+KEN KESEY, One Flew Over the Cuckoo's Nest, 1963
+
+Last exercise we looked at an object that had another object as one of its properties. What about storing objects inside arrays, and arrays as objects' properties?
+
+var staff = [
+    {
+        name: 'J. Jonah Jameson',
+        job: 'Editor-in-Chief'
+    },
+    {
+        name: 'Jessica Jones',
+        job: 'Reporter'
+    },
+    {
+        name: 'Peter Parker',
+        job: 'Photographer'
+    }
+];
+
+To access a property of an object stored inside the array we access the element using its index, as we usually do with arrays and then use dot notation to access the value stored in the property, as we usually do with objects.
+
+console.log(staff[2].name);
+// prints 'Peter Parker'
+
+Show me the code!
+
+In the variable characters, assign an array of objects to organize the following names and respective quotes:
+
+    'A wizard is never late, nor is he early. He arrives precisely when he means to.' - Gandalf
+    'One does not simply walk into Mordor' - Boromir
+    'My precious.' - Gollum
+
+Print the following output: 'Boromir wisely said "One does not simply walk into Mordor"'.

@@ -1,0 +1,27 @@
+<Step it up>
+Up until now, we’ve used arrays for storing single values, such as strings or numbers. But the same motivation for using an array instead of a set of variables for strings representing data of the same nature, can be used if you have several arrays.
+
+Remember how we’ve frowned upon code like this?
+var filmCharacter1 = 'Vito';
+var filmCharacter2 = 'Michael';
+var filmCharacter3 = 'Sonny';
+var filmCharacter4 = 'Freddo';
+We know better now:
+var filmCharacters = ['Vito', 'Michael', 'Sonny', 'Freddo'];
+But suppose we have not one but a lot of films to list characters from:
+var filmCharacters1 = ['Vito', 'Michael', 'Sonny', 'Freddo'];
+var filmCharacters2 = ['Mia', 'Vincent', 'Jules', 'Butch'];
+var filmCharacters3 = ['Bella', 'Edward', 'Jacob', 'Carlisle'];
+var filmCharacters4 = ['James', 'M', 'Moneypenny', 'Felix'];
+You see where this is going, right? Shouldn’t we assemble all these data in a single structure?
+var characters = [filmCharacters1, filmCharacters2, filmCharacters3, filmCharacters4];
+Now every element of this array is not a string or a number but another array (of strings, in this particular result). Sure it has some added complexity, but the same rules you’ve been using still apply:
+characters; // produces an array (of arrays)
+characters[1] // also produces an array! In this case: [‘Mia’, ‘Vincent’, ‘Jules’, ‘Butch’]
+
+// If you navigate through an array with square brackets, and if characters[1] produces an array
+// then you’ve probably guessed that
+characters[1][0]; // produces the string ‘Mia’, first element of the second array of characters
+
+<Show me the Code!>
+Using this characters array, print to the console every character which name begins with ‘M’. Don’t use any kind of loop, yet. We’ll get to that in a second.

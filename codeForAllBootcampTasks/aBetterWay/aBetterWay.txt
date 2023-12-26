@@ -1,0 +1,32 @@
+<A better way>
+It’s very common to get a string from somewhere in your program (or even from outside) that represents a set of values. If you wish to process these values independently it would be better to deal with them within an array, and not as a single string value.
+
+var javaScriptValues = ‘boolean number string undefined null’;
+
+Maybe you could iterate with a loop through each character until you find a space, and every time you did, send the word to an array. Yes, it could be done, but ain’t nobody got time for that, specially for such a recurrent operation like this one. Let's do it just now for academic purposes:
+var text = 'one two three four';
+var words = [];
+
+var currentWord = '';
+
+for(var i = 0; i < text.length; i++) {
+  
+  var character = text.charAt(i);
+  
+  if(character === ' ') {  // if we find a space, let's send the word to an array
+    words.push(currentWord);
+    currentWord = '';
+    continue;
+  }
+  
+  currentWord += character;
+}
+
+words.push(currentWord); // be sure to push the last word to the array
+In JavaScript, strings have a method for doing just so. By using split on any string, you will get an array with substrings, without changing the original string. You just have to specify the character or characters you wish to use as a separator. In the above case, it would be the space character. The separator won’t be included in the new array.
+
+var valuesList = javaScriptValues.split(‘ ‘); // there’s a space between the single quotes
+console.log(valuesList[1]); // prints number
+
+Show me the Code!
+Produce an array from the given string with the names of the jedi and print the third element from it to the console.

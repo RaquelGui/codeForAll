@@ -1,0 +1,23 @@
+<Say my name>
+Do you know why hurricanes have names instead of numbers? To keep the killing personal. No one cares about a bunch of people killed by a number.
+GEORGE CARLIN, It's Bad For Ya, 2008
+
+As we saw in the last exercise, data is organised in objects as properties, which are key-value pairs. To access the value stored in a property we can use dot notation. Access a variable by it's name, followed by a dot and then the property name.
+
+For example if we wanted to access the value of the property age of the object stored in the variable notAHero we would use dot notation.
+
+console.log(notAHero.age);
+// prints 23
+
+We access the object using the name of the variable where it is stored, and then access a property by using a dot and the name of the key corresponding to that property.
+
+Be aware that trying to access a property which doesn't exist returns undefined.
+
+console.log(notAHero.superPower);
+// prints undefined
+
+Pro-Tip: remember when we used 'hello'.length to know the size of a string? We could do that because strings have a property called length which stores the number of characters in that string.
+
+Show me the code!
+
+Using the dot notation, access the given object so you can print the string 'Harry Potter, the boy who lived'.

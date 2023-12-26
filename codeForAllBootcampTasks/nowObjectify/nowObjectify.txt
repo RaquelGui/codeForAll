@@ -1,0 +1,27 @@
+<Now Objectify!>
+The object of the artist is the creation of the beautiful. What the beautiful is is another question.
+JAMES JOYCE, A Portrait of the Artist as a Young Man, 1916
+
+It's time we have a look at one of the most important data types in JavaScript: objects. Although you might not have heard of objects before, you have already used them without even realising. They are just a different way to store data.
+
+var notAHero = {
+    firstName: 'Peter',
+    lastName: 'Parker',
+    age: 23
+};
+
+One of the ways to create objects is using curly braces {}. It is then possible to store it in a variable using the assignment operator like we can see in the snippet above. We can use objects to model the real world.
+
+Data is stored in objects using key-value pairs. Each key will correspond to a value which is stored in the object, and you can think of it as a variable name. Stored in that variable is the value corresponding to that key.
+
+To create key-value pairs we just write the name of the key, followed by a colon :, and the value associated with that key. To separate key-value pairs we use a comma ,.
+
+We can see that the object in the code snippet above has three such keys, firstName,lastName and age, with values associated to them. The value stored in the key firstName is the string 'Peter',  the value stored in the key lastName is the string 'Parker' and the value stored in age is 23.
+
+Pro-Tip: The key-value pairs used to store data in an object are typically called properties. We refer to an objects' property by the name of it's key.
+
+Show me the code!
+
+Create a new object with two properties called name and nickname containing the values 'Harry Potter' and 'the boy who lived'.
+
+Assign this object to a variable named wizard. 

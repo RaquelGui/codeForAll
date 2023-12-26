@@ -1,0 +1,31 @@
+<Methods Man...>
+We can best help you to prevent war not by repeating your words and following your methods but by finding new words and creating new methods.
+VIRGINIA WOOLF, Three Guineas, 1938
+
+When we learned about functions a few exercises back we saw it is possible to store a function in a variable, and to invoke it by accessing that variable. Let's look at the relation between functions and objects.
+
+var notAHero = {
+    fullName: 'Peter Parker',
+    age: 23,
+    job: 'Photographer',
+    takePicture: function () {
+        console.log('Click. Great pic!');
+    }
+};
+
+We are creating an object with typical key-value pairs. Notice how the value associated with the key takePicture is a function. 
+
+When a function is stored inside of an object we call it a method. Methods represent the behaviors or functionalities of our object. Much like a property is what an object has, a method is what an object does.
+
+So how do we invoke a method? We can access it using it's key, much like we did when accessing properties. Then all we need to invoke it is to add parenthesis, just like you would invoke a function which is stored in a variable!
+
+notAHero.takePicture();
+// prints 'Click. Great pic!'
+
+Show me the code!
+
+Create an object named wizard. Add a method named makeSpell to the wizard object that will print any message you want to the console. 
+
+Add another method named playQuidditch that also prints a message.
+
+Invoke both methods.

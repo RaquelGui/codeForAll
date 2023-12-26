@@ -1,0 +1,22 @@
+<For an Array Foray>
+Not all those who wander are lost.
+J. R. R. TOLKIEN, The Fellowship of the Ring, 1954
+
+Now that you know all about arrays we can start relating them to what we already learned about loops.
+
+For example, accessing and printing every element of an array is a very repetitive task. Which can be achieved using a for loop. In the snippet below we iterate through the array petShop and print to the console each of the elements of the array.
+
+var petShop = ['Puppies', 'Kitties', 'Hamsters', 'Bunnies', 'Birds'];
+
+console.log('In the shop we have the following animals:');
+
+for (var i = 0; i < petShop.length; i++) {
+     console.log(petShop[i]);
+}
+
+With each iteration we access the element of index i of the array and print it. As the value of i increments with each iteration (until it reaches the length of the array), every element of the array will be printed.
+
+Show me the Code!
+
+Iterate over the array provided in powerRangers and print to the console a string that shows the elements' index and the content of the element.
+e.g.: '0: Red'

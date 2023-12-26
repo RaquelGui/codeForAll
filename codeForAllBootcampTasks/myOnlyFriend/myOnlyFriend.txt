@@ -1,0 +1,7 @@
+<My only friend>
+Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.
+WINSTON CHURCHILL, November 10 1942
+
+Congratulations! You've really come a long way on your journey to gaining a spot at our workshop <Beta Code Cadet>!
+
+There is still a lot to learn in the JavaScript universe, and we only started showing you the potential of this programming language. If you want to learn more so you're more than ready for your upcoming workshop, we recommend you read Eloquent Javascript, a great book that will take your JavaScript skills to the next level.

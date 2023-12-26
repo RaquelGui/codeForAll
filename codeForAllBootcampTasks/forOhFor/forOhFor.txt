@@ -1,0 +1,21 @@
+<For, oh for>
+We've seen before how a for loop and an array go so well together. Iteration through an array is so recurrent that every time you find an array you immediatly think about using a for loop. But we've used it only to iterate through single values such as strings or numbers. But how do we iterate an array composed of arrays?
+
+var filmCharacters = [
+    ['Vito', 'Michael', 'Sonny', 'Freddo'],
+    ['Mia', 'Vincent', 'Jules', 'Butch'],
+    ['Bella', 'Edward', 'Jacob', 'Carlisle'],
+    ['James', 'M', 'Moneypenny', 'Felix']
+];
+
+If you traverse this array with a for loop, each iteration will produce another array. And what do we do to iterate an array?
+
+for(var i = 0; i < filmCharacters.length; i++) {
+    // inside this loop we have access to each array, with filmCharacters[i], so let's iterate each one
+    for(var j = 0; j < filmCharacters[i].length; j++) { // notice how the i variable is already in use, so we'll use j
+        console.log(filmCharacters[i][j]);
+    }
+}
+<Show me the code>
+It's time to print all the names starting with 'M', again. Only this time use a much cooler nested for loop.
+Just a tip: you already know some string methods which will help you with this task. One we've never talked about is startsWith(). Can you guess what it does?

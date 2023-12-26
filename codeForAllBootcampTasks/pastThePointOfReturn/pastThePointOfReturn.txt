@@ -1,0 +1,29 @@
+<Past the Point of Return>
+but the King was still not satisfied and sent his own son off, telling him not to return until he had discovered what fire really is. The son set off, but never returned. The King was satisfied - his son had discovered the true nature of fire.
+JOSÉ EDUARDO AGUALUSA, Nação Crioula, 1997
+
+These functions we've been working with will execute some code and produce an effect (printing something to the console for instance). But functions can also produce a value, much like expressions do.
+
+You've already used some functions that produce values. Math.random for example, will produce a number that you can print to the console or store in a variable. Other functions that produce values are toUpperCase, which will produce a string, indexOf which produces a number, or includes which produces a boolean. Some others, like console.log, push, or pop, are not designed to produce values. They just do stuff.
+
+The value produced by a function is called its return value. This is how we declare that a function will have a return value:
+
+var square = function (x) {
+    return x * x; // this is called the return statement
+};
+
+var result = square(3); // no output yet; we're just storing the return value in a variable
+console.log(result); // outputs 9
+
+Take a look at the return statement in the snippet above. As you can see right after the return keyword there is an expression; but we have said that a function returns a value. This means that the expresion must be resolved to a value before the function can return it.
+
+Be aware that any code inside the body of the function that comes after the return statement will be disregarded. This makes a lot of sense if you think about it, as the purpose of the function is to produce some value. Therefore there is no point in executing further instructions.
+
+Show me the code!
+
+Some functions are great for asking yes or no questions. Take for instance the includes, startsWith, endsWith functions you can use in any string. 
+What do you expect these to return. A boolean, right? True/False.
+
+Take a look at how perfect those names are for this type of question, they almost force you to answer in a binary form, yes or no.
+
+Let's try it ourselves. And by ourselves we mean yourself: declare a function called isEven that takes a number as an argument and returns a boolean. Go!

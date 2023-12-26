@@ -1,0 +1,23 @@
+<From Zero to Hero>
+A zero itself is nothing, but without a zero you cannot count anything; therefore, a zero is something, yet zero.
+DALAI LAMA, Meditation, 1993
+
+Last exercise we saw a way of creating arrays, and how we are able to print its contents. But what if we wanted to access a specific element in our array? 
+We must first access the array using the name of the variable where it is stored, then access the element by placing its index inside square brackets:
+
+var petShop = ['Puppies', 'Kitties', 'Hamsters', 'Snakes', 'Birds'];
+console.log('In the second cage we have: ' + petShop[1]);
+// prints 'In the second cage we have: Kitties'
+
+You must have noticed something off in the code snippet above. Although we wanted to access the second element of our array, the index inside the square brackets is 1. Yet we still print 'Kitties' to the console, which means we did access the second element of our array.
+
+This is because in programming we start counting from zero. Just like we saw with strings, where the index of the first character is 0. This means the first element in our array has index 0, the second has index 1 and so forth.
+
+Pro-Tip: Remember how you can also access a character on a string using square bracket notation.
+
+var anotherPet = 'Fishes';
+console.log(anotherPet[2]);    // prints 's', which is the character at index 2 of the string stored in anotherPet
+
+Show me the code!
+
+Print the first element of the Vesper Martini array along with the string 'The first ingredient is: '

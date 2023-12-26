@@ -1,0 +1,36 @@
+<Dot Dot Dot>
+'Don't go on multiplying the mysteries', Unwin said. 'They should be kept simple. Bear in mind Poe's purloined letter, bear in mind Zangwill's locked room.' Or made complex replied Dunraven. 'Bear in mind the universe.'
+JORGE LUIS BORGES, The Aleph and Other Stories, 1949
+
+Now let's take it up a notch. We are going to create an object, which we will store in the variable newspaper, that has some properties. One of these properties is called staff and holds an array of objects representing each staff member of the newspaper:
+
+var newspaper = {
+    name: 'Daily Bugle',
+    city: 'New York',
+    staff: [
+        {
+            name: 'J. Jonah Jameson',
+            job: 'Editor-in-Chief'
+        },
+        {
+            name: 'Jessica Jones',
+            job: 'Reporter'
+        },
+        {
+            name: 'Peter Parker',
+            job: 'Photographer'
+        }
+    ],
+    circulation: 1000000
+};
+
+Now let's try printing 'Photographer' to the console.
+
+console.log(newspaper.staff[2].job);
+// prints 'Photographer'
+
+As you can imagine we can nest objects and arrays inside of each other as much as we can. But accessing them becomes harder the more levels of nesting we introduce.
+
+Show me the code!
+
+Access the object fellowship and print 'Pippin' .

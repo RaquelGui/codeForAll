@@ -1,0 +1,25 @@
+<Array Gun>
+He longed for cleanliness and tidiness: it was hard to find peace in the middle of disorder.
+ROBIN HOBB, City of Dragons, 2011
+
+Much like we can store objects inside arrays, we can store an array in an object's property:
+
+var newspaper = {
+    name: 'Daily Bugle',
+    city: 'New York',
+    departments: [
+        'Metro',
+        'Politics',
+        'Crime',
+        'Sports'
+    ]
+};
+
+If we wanted to access a specific element of the array stored in the property departments of the object stored in newspaper, we would simply access that property and then access the array's element by its index.
+
+console.log(newspaper.departments[2]);
+// prints 'Crime'
+
+Show me the code!
+
+Use the given object to print the following string:  'Frodo and Sam got to Mount Doom'.
